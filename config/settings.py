@@ -14,6 +14,9 @@ class Settings(BaseSettings):
     CLAUDE_API_KEY_ANTI: str | None = None
     CLAUDE_BASE_URL: str
 
+    # Serper API
+    SERPER_API_KEY: str | None = None
+
     # AWS Authentication
     AWS_REGION: str = "eu-central-1"
     AWS_ACCESS_KEY: str | None = None
