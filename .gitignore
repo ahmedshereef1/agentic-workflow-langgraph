@@ -1,0 +1,71 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dll
+*.dylib
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Build and packaging outputs
+dist/
+build/
+site/
+*.egg-info/
+.eggs/
+wheelhouse/
+
+# Test and tooling artifacts
+.tox/
+.nox/
+.ipynb_checkpoints/
+.pyre/
+.cache/
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.pid.lock
+
+# Type checker / lint tool state
+.pytype/
+.dmypy.json
+
+# uv / Python project local state
+.uv/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local config that should not be committed
+.python-version
