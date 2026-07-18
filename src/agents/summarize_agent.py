@@ -45,7 +45,7 @@ class SummarizeAgent:
             # Format the summary onject into a string
             # Format the summary object into a string
             summary_str = "# Summary\n\n"
-            summary_str += f"\n\n## Key Points\n{summary_obj.main_points}\n"
+            summary_str += f"\n\n## Key Points\n{summary_obj.main_point}\n"
             summary_str += f"\n\n## Benefits\n{summary_obj.benefits}\n"
             summary_str += f"\n\n## Conclusion\n{summary_obj.conclusion}\n"
 
